@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="main.js"></script>
+    <header>
+        <div class="container">
+          <nav style="display: flex; align-items: center; justify-content: space-between; ">
+            <img src="./main_logo.svg.png" alt="">
+            <button style="background:  #FC004A; border-radius: 12px; padding: 10px; border: none; color: white; width: 256px; position: relative; right: 300px;">Укажите свой адрес</button>
+           <ul style="display: flex; gap: 30px; list-style: none; align-items: center;">
+
+           <li>
+            <a style="text-decoration: none; color: black;" href="">О нас</a>
+           </li>
+           <li>
+            <a style="text-decoration: none; color: black;" href="">Меню</a>
+           </li>
+           <li>
+            <a style="text-decoration: none; color: black;" href="">Акции</a>
+           </li>
+           <li>
+            <a style="text-decoration: none; color: black;" href="">Филиалы</a>
+           </li>
+           <li>
+            <a style="text-decoration: none; color: black;" href="">Контакты</a>
+           </li>
+           </ul>
+          </nav>
+        </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <center>
+            <img style="margin-top: 50px;" src="./Container.png" alt="">  
+          </center>
+        </div>
+      </section>
+
+      <section>
+        <h2 style="font-size: 30px; margin-left: 20px; font-weight: 400;">Сеты</h2>
+       <div style=" max-width: 100%;  width: 1220px; margin: 0 auto; display: flex; flex-wrap: wrap;  gap: 20px; position: relative; top: 8px;" class="parent">
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./set1.png" alt=""><h3 style="font-weight: 500;">Qiyqiriq сет</h3><p style="position: relative; bottom: 20px;">45 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;"    data-price="45000"     onclick="showAlert(this)">+</button></div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img style="width: 235px;" src="./set2.png" alt=""><h3 style="font-weight: 500;">Снек сет</h3><p style="position: relative; bottom: 20px;">79 000 сум </p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;"     data-price="79000"     onclick="showAlert(this)">+</button></div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./set3.png" alt=""><h3 style="font-weight: 500;">Классик сет</h3><p style="position: relative; bottom: 20px;">34 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;"  data-price="34000"    onclick="showAlert(this)">+</button></div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./set4.png" alt=""><h3 style="font-weight: 500;">Лонгер рингс сет</h3><p style="position: relative; bottom: 20px;">45 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;" data-price="45000"     onclick="showAlert(this)">+</button></div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./set5.png" alt=""><h3 style="font-weight: 500;">Биг сет</h3><p style="position: relative; bottom: 20px;">62 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;" data-price="62000"   onclick="showAlert(this)">+</button></div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img style="width: 235px;" src="./set6.png" alt=""><h3>Лестер сет</h3><p style="position: relative; bottom: 20px;">53 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;"  data-price="53000"  onclick="showAlert(this)">+</button></div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./set7.png" alt=""><h3 style="font-weight: 500;">Скул сет</h3><p style="position: relative; bottom: 20px;">36 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;"   data-price="36000"    onclick="showAlert(this)">+</button></div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./set8.png" alt=""><h3 style="font-weight: 500;">Комбо сет Большой</h3><p style="position: relative; bottom: 20px;">20 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;"    data-price="20000"    onclick="showAlert(this)">+</button></div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./set9.png" alt=""><h3 style="font-weight: 500;">Do’stlar 1х</h3><p style="position: relative; bottom: 20px;">43 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;" 
+        data-price="43000" 
+        onclick="showAlert(this)">+</button>
+</div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./set10.png" alt=""><h3 style="font-weight: 500;">Do’stlar 2х</h3><p style="position: relative; bottom: 20px;">79 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;" 
+        data-price="79000" 
+        onclick="showAlert(this)">+</button>
+</div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./set11.png" alt=""><h3 style="font-weight: 500;">Do’stlar 4х</h3><p style="position: relative; bottom: 20px;">149 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;" 
+        data-price="149000" 
+        onclick="showAlert(this)">+</button>
+</div>
+      <div style="margin-top: 50px;  width: 290px; height: 291px; border-radius: 30px; background-color: white;   display: flex;   flex-direction: column;  align-items: center; justify-content: center; "><img src="./12.png" alt=""><h3 style="font-weight: 500;">Острый Do’stlar 1х</h3><p style="position: relative; bottom: 20px;">43 000 сум</p><button style="background: #FC004A; border: none; color: white; width: 70px; height: 40px;" 
+        data-price="43000" 
+        onclick="showAlert(this)">+</button>
+</div>
+
+       </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+         <div style="display: flex; align-items: center; margin-top: 100px; justify-content: space-around;">
+          <p>2024 Все права защищены</p>
+          <img src="./main_logo.svg.png" alt="">
+         </div>
+      </div>
+    </footer>
+</body>
+</html>
